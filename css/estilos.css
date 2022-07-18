@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: beige;;
+}
+/* NAVEGACION */
+.nav-color{
+    background-color: rgb(231, 158, 170);
+}
+.logo{
+    color: beige;
+
+    font-size: 50px;
+}
+.logo:hover{
+    transition: 0.25s;
+    color: black;
+}
+.nav_link{
+    color: beige;
+    font-size: 20px;
+
+}
+.nav_link:hover{
+    transition: 0.25s;
+    color: black;
+}
+/* fin de la navegacion */
+/* index */
+.main_titulo{
+    background-color: pink;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main_index{
+    padding: 16px;
+    margin: 10px;
+}
+.main_subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: pink;
+}
+.galeria_grid{
+    display: grid;
+    width: 98vw;
+    height:98vh;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:"galeria-1 galeria-2 galeria-3"
+                        "galeria-1 galeria-4 galeria-5"
+                        "galeria-6 galeria-4 galeria-7";
+}
+.galeria-1{
+    grid-area: galeria-1;
+    background-image: url("../recursos/galeria-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.galeria-2{
+    grid-area: galeria-2;
+    background-image: url("../recursos/galeria-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.galeria-3{
+    grid-area: galeria-3;
+    background-image: url("../recursos/galeria-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.galeria-4{
+    grid-area: galeria-4;
+    background-image: url("../recursos/galeria-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.galeria-5{
+    grid-area: galeria-5;
+    background-image: url("../recursos/galeria-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.galeria-6{
+    grid-area: galeria-6;
+    background-image: url("../recursos/galeria-6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.galeria-7{
+    grid-area: galeria-7;
+    background-image: url("../recursos/galeria-7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* fin */
+/* ramos y box */
+.main-respuestas-ramo{
+    list-style: none;
+    color: rgb(228, 171, 180);
+    font-size: 20px;
+}
+.main-preguntas-ramo{
+    color: pink;
+    font-size: 25px;
+}
+
+/* Pagina de productos-maquillaje */
+
+.main_tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "card1 card2 card3"
+                        " card4 card5 card6"
+                        "card7 card8 card9";
+}
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area: card3;
+}
+.card4{
+    grid-area: card4;
+}
+.card5{
+    grid-area: card5;
+}
+.card6{
+    grid-area: card6;
+}
+.card7{
+    grid-area: card7;
+}
+.card8{
+    grid-area: card8;
+}
+.card9{
+    grid-area: card9;
+}
+.main_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: pink solid 1px;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 10px;
+    background-image: linear-gradient(to top,rgb(245, 217, 222),beige);
+}
+.main_card-img{
+    height: 200px;
+    width: 270px;
+}
+.main_card-img2{
+    height: 200px;
+    width: 175px;
+}
+.boton_productos{
+    height: 40px;
+    width: 140px;
+    font-size:15px;
+    border-radius: 10px;
+    background-color: pink;
+    border: solid pink;
+}
+.boton_productos:hover{
+    background-image: linear-gradient(pink,rgb(230, 173, 183));
+    transform: scale(1.10,1.10);
+}
+/* final de productos */
+/*preguntas frecuentes  */
+.main_preguntas{
+    color:rgb(236, 173, 184) ;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+.main_respuestas{
+    color: rgb(236, 187, 195);
+    font-size: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+/* final de preguntas frecuentes */
+/* contacto */
+
+.mensajeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+.boton{
+    padding: 10px;
+
+}
+.boton_contacto{
+    height: 40px;
+    width: 140px;
+    font-size:15px;
+    border-radius: 10px;
+    background-color: pink;
+    border: solid pink;
+}
+.boton_contacto:hover{
+    background-image: linear-gradient(pink,rgb(230, 173, 183));
+    transform: scale(1.10,1.10);
+}
+/* footer */
+.img-iconos{
+    height: 35px;
+    width: 35px;
+}
+.footer_titulo{
+    color: rgb(201, 161, 181) ;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+
+}
+.navegacion{
+    list-style: none;
+}
+.navegacion_footer{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-size: 15px;
+}
+.navegacion_footer:hover{
+    color:rgb(201, 161, 181) ;
+}
+.img_iconos{
+    height: 18px;
+    width: 18px;
+}
+.informacion_{
+    list-style: none;
+}
+.informacion{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.informacion:hover{
+    color:rgb(201, 161, 181);
+}
+.footer__derechos{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: grid;
+    grid-template-areas: "indice informacion redes"
+                        "indice informacion derechos";
+    background-color: rgb(255, 255, 249);
+}
+.footer__indice{
+    grid-area: indice;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__informacion{
+    grid-area: informacion;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__redes{
+    grid-area: redes;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.foter__derechos{
+    grid-area: derechos;
+}
+/* final de footer */
+
+
+/* medida de celular */
+@media(min-width:320px) and (max-width:575px){
+/* productos-maquillaje */
+.main_tarjetas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "card1" 
+                        "card2" 
+                        "card3"
+                        "card4"
+                        "card5"
+                        "card6"
+                        "card7" 
+                        "card8"
+                        "card9";
+}
+/* final de productos-maquillaje */
+body{
+    padding-top: 70px;
+}
+.header{
+    height: 60px;
+}
+.galeria_grid{
+    height: 200vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:"galeria-1"
+                        "galeria-2"
+                        "galeria-3"
+                        "galeria-4"
+                        "galeria-5"
+                        "galeria-6"
+                        "galeria-7";
+}
+
+/* footer */
+footer{
+    display: grid;
+    grid-template-areas:"indice"
+                        "informacion"
+                        "redes"
+                        "derechos";
+}
+.footer__informacion{
+    grid-area: informacion;
+    text-align: center;
+}
+.footer__indice{
+    grid-area: indice;
+    text-align: center;
+}
+}
+
+/* media de tablet */
+@media (min-width: 576px) and (max-width: 992px) {
+    
+.header{
+    height: 100px;
+}
+
+.galeria_grid{
+    height: 200vh;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:"galeria-1 galeria-1 galeria-2"
+                        "galeria-3 galeria-4 galeria-5"
+                        "galeria-6 galeria-6 galeria-7";
+}
+}
