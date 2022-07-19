@@ -3,14 +3,14 @@
     padding: 0px;
 }
 body{
-    background-color: beige;;
+    background-color: #fff6f9;
 }
 /* NAVEGACION */
 .nav-color{
-    background-color: rgb(231, 158, 170);
+    background-color: #f2789f;
 }
 .logo{
-    color: beige;
+    color:#faedf2;
 
     font-size: 50px;
 }
@@ -19,7 +19,7 @@ body{
     color: black;
 }
 .nav_link{
-    color: beige;
+    color: #faedf2;
     font-size: 20px;
 
 }
@@ -30,7 +30,8 @@ body{
 /* fin de la navegacion */
 /* index */
 .main_titulo{
-    background-color: pink;
+    background-color: #f2789f;
+    color: black;
     font-size: 15px;
     display: flex;
     justify-content: center;
@@ -46,7 +47,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    color: pink;
+    color: #f2789f;
 }
 .galeria_grid{
     display: grid;
@@ -112,11 +113,11 @@ body{
 /* ramos y box */
 .main-respuestas-ramo{
     list-style: none;
-    color: rgb(228, 171, 180);
+    color: #f9c5d5;
     font-size: 20px;
 }
 .main-preguntas-ramo{
-    color: pink;
+    color: #f999b7;
     font-size: 25px;
 }
 
@@ -162,11 +163,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: pink solid 1px;
+    border: #f999b7 solid 1px;
     border-radius: 20px;
     padding: 16px;
     margin: 10px;
-    background-image: linear-gradient(to top,rgb(245, 217, 222),beige);
+    background-image: linear-gradient(to top,#f9c5d5,#fee3ec);
 }
 .main_card-img{
     height: 200px;
@@ -181,34 +182,37 @@ body{
     width: 140px;
     font-size:15px;
     border-radius: 10px;
-    background-color: pink;
-    border: solid pink;
+    background-color: #f999b7;
+    border: solid #f999b7;
 }
 .boton_productos:hover{
-    background-image: linear-gradient(pink,rgb(230, 173, 183));
+    background-image: linear-gradient(#f2789f,#fee3ec);
     transform: scale(1.10,1.10);
 }
 /* final de productos */
 /*preguntas frecuentes  */
 .main_preguntas{
-    color:rgb(236, 173, 184) ;
+    color:#f999b7;
     font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 10px; 
 }
 .main_respuestas{
-    color: rgb(236, 187, 195);
+    color: #f999b7;
     font-size: 15px;
+    list-style: none;
 
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+
 }
 /* final de preguntas frecuentes */
 /* contacto */
-
+.label{
+    display: inline-block;
+    width: 80px;
+}
+.label_{
+    display: inline-block;
+    width: 100px;
+}
 .mensajeria{
     display: flex;
     justify-content: center;
@@ -225,11 +229,11 @@ body{
     width: 140px;
     font-size:15px;
     border-radius: 10px;
-    background-color: pink;
-    border: solid pink;
+    background-color:#f999b7;
+    border: solid #f999b7;
 }
 .boton_contacto:hover{
-    background-image: linear-gradient(pink,rgb(230, 173, 183));
+    background-image: linear-gradient(#f999b7,#fee3ec);
     transform: scale(1.10,1.10);
 }
 /* footer */
@@ -238,7 +242,7 @@ body{
     width: 35px;
 }
 .footer_titulo{
-    color: rgb(201, 161, 181) ;
+    color: #f999b7 ;
     font-size: 16px;
     padding: 0px;
     margin: 0px;
@@ -253,7 +257,7 @@ body{
     font-size: 15px;
 }
 .navegacion_footer:hover{
-    color:rgb(201, 161, 181) ;
+    color:#f999b7;
 }
 .img_iconos{
     height: 18px;
@@ -268,7 +272,7 @@ body{
     font-size: 15px;
 }
 .informacion:hover{
-    color:rgb(201, 161, 181);
+    color:#f999b7;
 }
 .footer__derechos{
     font-size: 13px;
@@ -280,7 +284,7 @@ footer{
     display: grid;
     grid-template-areas: "indice informacion redes"
                         "indice informacion derechos";
-    background-color: rgb(255, 255, 249);
+    background-color: white;
 }
 .footer__indice{
     grid-area: indice;
@@ -310,6 +314,10 @@ footer{
 /* medida de celular */
 @media(min-width:320px) and (max-width:575px){
 /* productos-maquillaje */
+.main_subtitulo{
+    padding: 40px;
+}
+
 .main_tarjetas{
     display: grid;
     grid-template-columns: 1fr;
