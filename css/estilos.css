@@ -18,6 +18,10 @@ body{
     transition: 0.25s;
     color: black;
 }
+.nav_link:active{
+    color: #fee3ec;
+}
+
 .nav_link{
     color: #faedf2;
     font-size: 20px;
@@ -183,10 +187,13 @@ body{
     font-size:15px;
     border-radius: 10px;
     background-color: #f999b7;
-    border: solid #f999b7;
+    border: none;
+}
+.boton_productos:active{
+    color: #fee3ec;
 }
 .boton_productos:hover{
-    background-image: linear-gradient(#f2789f,#fee3ec);
+    background-image: #f999b7;
     transform: scale(1.10,1.10);
 }
 .color_filtro{
