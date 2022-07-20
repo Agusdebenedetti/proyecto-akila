@@ -189,6 +189,12 @@ body{
     background-image: linear-gradient(#f2789f,#fee3ec);
     transform: scale(1.10,1.10);
 }
+.color_filtro{
+    background-color: #f999b7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
 /* final de productos */
 /*preguntas frecuentes  */
 .main_preguntas{
