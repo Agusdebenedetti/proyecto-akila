@@ -1,0 +1,31 @@
+/* navegacion */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fff6f9;
+}
+.nav-color{
+    background-color: $fondo_nav-titulo;
+}
+.nav_link{
+        transform: perspective( );
+        &{
+            color: $logo-nav;
+            font-size: 20px;
+        }
+        &:hover{
+            transition: 0.25s;
+            color: black;
+        }
+        
+}
+.logo{
+    color:$logo-nav;
+    font-size: 50px;
+    &:hover{
+        transition: 0.25s;
+        color: black;
+    }
+}

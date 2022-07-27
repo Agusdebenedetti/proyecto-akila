@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-akila",
+  "version": "1.0.0",
+  "description": "<hi1>Proyecto-akila</hi1>\r <p>este sitio es una tienda de maquillajes para el curso de desarrollo web en coder house</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agusdebenedetti/proyecto-akila.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agusdebenedetti/proyecto-akila/issues"
+  },
+  "homepage": "https://github.com/Agusdebenedetti/proyecto-akila#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

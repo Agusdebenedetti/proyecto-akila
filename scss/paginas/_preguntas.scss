@@ -1,0 +1,16 @@
+/*pagina/preguntas frecuentes  */
+.main{
+    &_preguntas{
+        color:$color-preguntas;
+        font-size: 15px;
+        padding: 10px; 
+    }
+    &_respuestas{
+        color: $color-preguntas;
+        font-size: 15px;
+        list-style: none;
+    
+    }
+
+}
+

@@ -1,0 +1,15 @@
+/* paginas/ramos y box */
+.main{
+    &-respuestas-ramo{
+        list-style: none;
+        color: $color-respuesta;
+        font-size: 20px;
+    }
+    &-preguntas-ramo{
+        color: $color-preguntas;
+        font-size: 25px;
+    }
+
+}
+
+

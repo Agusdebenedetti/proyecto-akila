@@ -1,0 +1,24 @@
+@import "variables";
+@import "footer";
+@import "nav";
+@import "paginas/index";
+@import "paginas/productos";
+@import "paginas/ramos-box";
+@import "paginas/preguntas";
+@import "paginas/contacto";
+@import "mediaqueries";
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fff6f9;
+}
+
+
+
+

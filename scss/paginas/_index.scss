@@ -1,0 +1,27 @@
+/* index */
+
+.main{
+    background-color: aliceblue;
+    &_titulo{
+        background-color: $fondo_nav-titulo;
+        color: black;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_index{
+        padding: 16px;
+        margin: 10px;
+    }
+    &_subtitulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: $fondo_nav-titulo;
+    }
+}
+
+
+

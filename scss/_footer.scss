@@ -1,0 +1,76 @@
+/* footer */
+.footer{
+    display: grid;
+    grid-template-areas: "indice informacion redes"
+                        "indice informacion derechos";
+    background-color: white;
+
+        &_titulo{
+            color: $footer_color ;
+            font-size: 16px;
+            padding: 0px;
+            margin: 0px;
+        }
+        &__indice{
+            grid-area: indice;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .navegacion{
+                list-style: none;
+            }
+            .navegacion_footer{
+                text-decoration: none;
+                color: rgb(7, 7, 7);
+                font-size: 15px;
+                &:hover{
+                    color:$footer_color;
+                }
+            }
+        }
+        &__informacion{
+            grid-area: informacion;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .informacion_{
+                list-style: none;
+            }
+            .informacion{
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+                &:hover{
+                    color:$footer_color;
+                }
+            }
+            .img_iconos{
+                height: 18px;
+                width: 18px;
+            }
+        }
+        &__redes{
+            grid-area: redes;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        &__derechos{
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &{
+                grid-area: derechos;
+            }
+        }
+        .img-iconos{
+            height: 35px;
+            width: 35px;
+        }   
+}
+
+
+
+
