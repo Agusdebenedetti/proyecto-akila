@@ -20,23 +20,19 @@
         .label{
             display: inline-block;
             width: 80px;
-        
         }
         .label_{
             display: inline-block;
             width: 100px;
-        
         }
     }
     &_input{
         border: none;
         outline: none;
         border-bottom: 1px solid palevioletred;
-        color: #f999b7;
+        color: $color-boton-form;
     }
 }
-
-
 
 .boton_contacto{
     height: 40px;
@@ -44,7 +40,7 @@
     margin: 10px;
     font-size:15px;
     border-radius: 10px;
-    background-color:#f999b7;
+    background-color:$color-boton-form;
     border: none;
     &:hover{
         background-color: #f7dae3;

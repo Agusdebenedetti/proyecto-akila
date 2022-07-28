@@ -1,5 +1,5 @@
 /* colores */
-/* medidas */
+/* funetes */
 /* footer */
 .footer {
   display: grid;
@@ -78,14 +78,15 @@ body {
 
 .logo {
   color: #faedf2;
-  font-size: 50px; }
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif; }
   .logo:hover {
     transition: 0.25s;
     color: black; }
 
 /* index */
 .main {
-  background-color: aliceblue; }
+  background-color: #fae2f1; }
   .main_titulo {
     background-color: #f2789f;
     color: black;
@@ -289,6 +290,9 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "card1"  "card2"  "card3" "card4" "card5" "card6" "card7"  "card8" "card9"; }
+  .boton_contacto {
+    height: 40px;
+    width: 180px; }
   body {
     padding-top: 70px; }
   .header {
@@ -313,14 +317,13 @@ body {
   .header {
     height: 100px; }
   .galeria_grid {
-    height: 200vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "galeria-1 galeria-1 galeria-2" "galeria-3 galeria-4 galeria-5" "galeria-6 galeria-6 galeria-7"; } }
-
-* {
-  margin: 0px;
-  padding: 0px; }
-
-body {
-  background-color: #fff6f9; }
+    width: 98vw;
+    height: 98vh;
+    padding: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "galeria-1" "galeria-2" "galeria-3" "galeria-4" "galeria-5" "galeria-6" "galeria-7"; }
+  .main_tarjetas {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "card1" "card2"  "card3" "card4" "card5" "card6" "card7" "card8" "card9"; } }

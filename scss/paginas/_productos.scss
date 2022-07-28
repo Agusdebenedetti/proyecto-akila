@@ -60,18 +60,6 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 }
 .main{
     &_tarjetas{
@@ -134,18 +122,18 @@
     width: 140px;
     font-size:15px;
     border-radius: 10px;
-    background-color: $color-boton;
+    background-color: $color-boton-form;
     border: none;
     &:active{
         color: #fee3ec;
     }
     &:hover{
-        background-image: $color-boton;
+        background-image: $color-boton-form;
         transform: scale(1.10,1.10);
     }
 }
 .color_filtro{
-    background-color:$color-boton;
+    background-color:$color-boton-form;
     color: white;
     border: none;
     border-radius: 5px;
