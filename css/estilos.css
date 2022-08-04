@@ -74,7 +74,7 @@ body {
 
 /* index */
 .main {
-  background-color: #fae2f1; }
+  background-color: #fff6f9; }
   .main_titulo {
     background-color: #f2789f;
     color: black;
@@ -292,7 +292,7 @@ body {
     grid-template-areas: "card1" "card2"  "card3" "card4" "card5" "card6" "card7" "card8" "card9"; }
   .main_card {
     padding: 2px;
-    margin: 0px; } }
+    margin: 10px; } }
 
 /* map coleccion de variables */
 .tamaño-h1 {
