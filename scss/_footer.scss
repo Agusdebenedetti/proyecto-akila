@@ -7,15 +7,12 @@
 
         &_titulo{
             color: $footer_color ;
-            font-size: 16px;
             padding: 0px;
             margin: 0px;
         }
         &__indice{
             grid-area: indice;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend .centrado;
             .navegacion{
                 list-style: none;
             }
@@ -30,9 +27,7 @@
         }
         &__informacion{
             grid-area: informacion;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend .centrado;
             .informacion_{
                 list-style: none;
             }
@@ -51,22 +46,18 @@
         }
         &__redes{
             grid-area: redes;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend .centrado;
             padding: 20px;
         }
         &__derechos{
             font-size: 13px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend .centrado;
             &{
                 grid-area: derechos;
             }
         }
         .img-iconos{
-            height: 35px;
+            height: 34px;
             width: 35px;
         }   
 }

@@ -4,20 +4,27 @@
 .main_subtitulo{
     padding: 40px;
 }
-.main_tarjetas{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "card1" 
-                        "card2" 
-                        "card3"
-                        "card4"
-                        "card5"
-                        "card6"
-                        "card7" 
-                        "card8"
-                        "card9";
-}
+
+
+            .main_tarjetas{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+                grid-template-areas: "card1" 
+                                    "card2" 
+                                    "card3"
+                                    "card4"
+                                    "card5"
+                                    "card6"
+                                    "card7" 
+                                    "card8"
+                                    "card9";
+            }
+            .main_card{
+                padding: 2px;
+                margin: 0px;
+            }
+
 .boton_contacto{
     height: 40px;
     width: 180px;
@@ -30,7 +37,9 @@ body{
     height: 60px;
 }
 .galeria_grid{
-    height: 200vh;
+    width: 90vw;
+    height:90vh;
+    padding: 5px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
     grid-template-areas:"galeria-1"
@@ -69,10 +78,10 @@ body{
 
 .galeria_grid{
     width: 98vw;
-    height:98vh;
-    padding: 10px;
+    height: 98vh;
+    padding: 5px;
     grid-template-columns: 1fr;
-    grid-template-rows:  repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-template-areas:"galeria-1"
                         "galeria-2"
                         "galeria-3"
@@ -80,7 +89,6 @@ body{
                         "galeria-5"
                         "galeria-6"
                         "galeria-7";
-
 }
 
 .main_tarjetas{
@@ -96,4 +104,12 @@ body{
                         "card8"
                         "card9";
 }
+.main_card{
+    padding: 2px;
+    margin: 0px;
+}
+
+
+
+
 }

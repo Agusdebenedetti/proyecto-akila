@@ -1,0 +1,26 @@
+/* map coleccion de variables */
+$titulos:(
+    h1:3rem,
+    h2:2rem,
+    h3:2rem,
+    h4:1rem
+);
+
+@each $titulo,$size in $titulos{
+    .tamaño-#{$titulo}{
+        font-size: #{$size};
+    }
+}
+/* extend */
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.background.centrado{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

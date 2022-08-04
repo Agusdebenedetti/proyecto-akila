@@ -12,51 +12,37 @@
     .galeria-1{
         grid-area: galeria-1;
         background-image: url("../recursos/galeria-1.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        @extend .background.centrado;
     }
     .galeria-2{
         grid-area: galeria-2;
         background-image: url("../recursos/galeria-2.jpg"); 
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        @extend .background.centrado;
     }
     .galeria-3{
         grid-area: galeria-3;
         background-image: url("../recursos/galeria-3.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        @extend .background.centrado;
     }
     .galeria-4{
         grid-area: galeria-4;
         background-image: url("../recursos/galeria-4.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        @extend .background.centrado;
     }
     .galeria-5{
         grid-area: galeria-5;
         background-image: url("../recursos/galeria-5.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        @extend .background.centrado;
     }
     .galeria-6{
         grid-area: galeria-6;
         background-image: url("../recursos/galeria-6.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        @extend .background.centrado;
     }
     .galeria-7{
         grid-area: galeria-7;
         background-image: url("../recursos/galeria-7.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        @extend .background.centrado;
     }
 
 
@@ -98,10 +84,8 @@
                         }
     }
     &_card{
-        display: flex;
+        @extend .centrado;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         border: #f999b7 solid 1px;
         border-radius: 20px;
         padding: 16px;

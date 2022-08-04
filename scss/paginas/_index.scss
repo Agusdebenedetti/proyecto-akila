@@ -7,18 +7,14 @@
         color: black;
         
         font-size: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend .centrado;
     }
     &_index{
         padding: 16px;
         margin: 10px;
     }
     &_subtitulo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend .centrado;
         font-size: 40px;
         color: $fondo_nav-titulo;
     }
