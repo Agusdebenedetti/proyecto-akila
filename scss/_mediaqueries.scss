@@ -1,43 +1,55 @@
 /* medida de celular */
 @media(min-width:320px) and (max-width:575px){
+body{
+    padding-top: 0px;
+}
 
 .main_subtitulo{
     padding: 40px;
 }
 
+.main{
+    &_tarjetas{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "card1" 
+                            "card2" 
+                            "card3"
+                            "card4"
+                            "card5"
+                            "card6"
+                            "card7" 
+                            "card8"
+                            "card9";
+    }
+    &_card{
+        padding: 2px;
+        margin: 10px;
+    }
+    &_card-img{
+        margin: 10px;
+    }
+    &_card-img2{
+        margin: 10px;
+    }
+}
 
-            .main_tarjetas{
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: auto;
-                grid-template-areas: "card1" 
-                                    "card2" 
-                                    "card3"
-                                    "card4"
-                                    "card5"
-                                    "card6"
-                                    "card7" 
-                                    "card8"
-                                    "card9";
-            }
-            .main_card{
-                padding: 2px;
-                margin: 0px;
-            }
+.boton_productos{
+    margin: 8px;
+}
 
 .boton_contacto{
     height: 40px;
     width: 180px;
 }
 
-body{
-    padding-top: 70px;
-}
+
 .header{
     height: 60px;
 }
 .galeria_grid{
-    width: 90vw;
+    width: 95vw;
     height:90vh;
     padding: 5px;
     grid-template-columns: 1fr;
@@ -77,38 +89,45 @@ body{
 }
 
 .galeria_grid{
-    width: 98vw;
-    height: 98vh;
+    width: 95vw;
+    height: 90vh;
     padding: 5px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-areas:"galeria-1"
-                        "galeria-2"
-                        "galeria-3"
-                        "galeria-4"
-                        "galeria-5"
-                        "galeria-6"
-                        "galeria-7";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:"galeria-1 galeria-2"
+                        "galeria-3 galeria-4"
+                        "galeria-5 galeria-6"
+                        "galeria-5 galeria-7";
+}
+.main{
+    &_tarjetas{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  auto;
+        grid-template-areas:"card1 card2" 
+                            "card3 card4"
+                            "card5 card6"
+                            "card7 card8"
+                            "card9 none";
+    }
+    &_card{
+        padding: 2px;
+        margin: 10px;
+    }
+    &_card-img{
+        margin: 10px;
+    }
+    &_card-img2{
+        margin: 10px;
+    }
+    &_letra{
+        margin: 25px;
+    }
 }
 
-.main_tarjetas{
-    grid-template-columns: 1fr ;
-    grid-template-rows:  repeat(4, 1fr);
-    grid-template-areas:"card1"
-                        "card2" 
-                        "card3"
-                        "card4"
-                        "card5"
-                        "card6"
-                        "card7"
-                        "card8"
-                        "card9";
-}
-.main_card{
-    padding: 2px;
-    margin: 10px;
-}
 
+.boton_productos{
+    margin: 8px;
+}
 
 
 
