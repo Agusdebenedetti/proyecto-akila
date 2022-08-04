@@ -224,7 +224,7 @@ body {
   .form_input {
     border: none;
     outline: none;
-    border-bottom: 1px solid palevioletred;
+    border-bottom: 1px solid #cf6f8f;
     color: #f999b7; }
 
 .boton_contacto {
