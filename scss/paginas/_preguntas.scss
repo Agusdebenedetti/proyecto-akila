@@ -1,4 +1,29 @@
 /*pagina/preguntas frecuentes  */
+.imagen-conteiner{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "preguntas  img1"
+                        "preguntas  img2";
+        
+                    .img1{
+                        grid-area: img1;
+                    }
+                    .img2{
+                        grid-area: img2;
+                    }
+                    .preguntas{
+                        grid-area: preguntas;
+                    } 
+
+}
+
+.imagen-preguntas{
+    height: 200px;
+    width: 200px;
+
+}
 .main{
     &_preguntas{
         color:$color-preguntas;
@@ -11,6 +36,5 @@
         list-style: none;
     
     }
-
 }
 

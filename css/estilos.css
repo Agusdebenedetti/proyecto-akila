@@ -191,6 +191,23 @@ body {
   font-size: 25px; }
 
 /*pagina/preguntas frecuentes  */
+.imagen-conteiner {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "preguntas  img1" "preguntas  img2"; }
+  .imagen-conteiner .img1 {
+    grid-area: img1; }
+  .imagen-conteiner .img2 {
+    grid-area: img2; }
+  .imagen-conteiner .preguntas {
+    grid-area: preguntas; }
+
+.imagen-preguntas {
+  height: 200px;
+  width: 200px; }
+
 .main_preguntas {
   color: #f2789f;
   font-size: 15px;
@@ -201,8 +218,6 @@ body {
   font-size: 15px;
   list-style: none; }
 
-/* paginas/contacto */
-/* contacto */
 .form {
   display: grid;
   justify-content: center;
@@ -213,7 +228,7 @@ body {
     margin: auto;
     width: 90%;
     max-width: 400px;
-    padding: 4.5em 3em;
+    padding: 2.5em 3em;
     border-radius: 15px;
     box-shadow: 0px 5px 10px -5px black; }
     .form_contenedor .mensajeria {
@@ -246,6 +261,8 @@ body {
 @media (min-width: 320px) and (max-width: 575px) {
   body {
     padding-top: 0px; }
+  .header {
+    height: auto; }
   .main_subtitulo {
     padding: 40px; }
   .main_tarjetas {
@@ -265,8 +282,6 @@ body {
   .boton_contacto {
     height: 40px;
     width: 180px; }
-  .header {
-    height: 60px; }
   .galeria_grid {
     width: 95vw;
     height: 90vh;
@@ -274,6 +289,12 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
     grid-template-areas: "galeria-1" "galeria-2" "galeria-3" "galeria-4" "galeria-5" "galeria-6" "galeria-7"; }
+  .imagen-conteiner {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "preguntas"   "img1" "img2"; }
   .footer {
     display: grid;
     grid-template-areas: "indice" "informacion" "redes" "derechos"; }
@@ -287,7 +308,7 @@ body {
 /* media de tablet */
 @media (min-width: 576px) and (max-width: 992px) {
   .header {
-    height: 100px; }
+    height: auto; }
   .galeria_grid {
     width: 95vw;
     height: 90vh;
