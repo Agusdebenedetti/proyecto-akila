@@ -4,7 +4,8 @@
 /* footer */
 .footer {
   display: grid;
-  grid-template-areas: "indice informacion redes" "indice informacion derechos";
+  grid-template-areas: "indice informacion redes"
+ "indice informacion derechos";
   background-color: white; }
   .footer_titulo {
     color: #f999b7;
@@ -94,7 +95,9 @@
   padding: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "galeria-1 galeria-2 galeria-3" "galeria-1 galeria-4 galeria-5" "galeria-6 galeria-4 galeria-7"; }
+  grid-template-areas: "galeria-1 galeria-2 galeria-3"
+ "galeria-1 galeria-4 galeria-5"
+ "galeria-6 galeria-4 galeria-7"; }
   .galeria_grid .galeria-1 {
     grid-area: galeria-1;
     background-image: url("../recursos/galeria-1.jpg"); }
@@ -121,7 +124,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "card1 card2 card3" " card4 card5 card6" "card7 card8 card9"; }
+  grid-template-areas: "card1 card2 card3"
+ " card4 card5 card6"
+ "card7 card8 card9"; }
   .main_tarjetas .card1 {
     grid-area: card1; }
   .main_tarjetas .card2 {
@@ -196,7 +201,8 @@
   justify-content: center;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "preguntas  img1" "preguntas  img2"; }
+  grid-template-areas: "preguntas  img1"
+ "preguntas  img2"; }
   .imagen-conteiner .img1 {
     grid-area: img1; }
   .imagen-conteiner .img2 {
@@ -296,7 +302,15 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "card1"  "card2"  "card3" "card4" "card5" "card6" "card7"  "card8" "card9"; }
+    grid-template-areas: "card1" 
+ "card2" 
+ "card3"
+ "card4"
+ "card5"
+ "card6"
+ "card7" 
+ "card8"
+ "card9"; }
   .main_card {
     padding: 2px;
     margin: 10px; }
@@ -311,7 +325,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "form1"  "form2 "; }
+    grid-template-areas: "form1" 
+ "form2 "; }
     .formularios_1y2 .form1 {
       grid-area: form1; }
     .formularios_1y2 .form2 {
@@ -323,16 +338,27 @@
     padding: 5px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
-    grid-template-areas: "galeria-1" "galeria-2" "galeria-3" "galeria-4" "galeria-5" "galeria-6" "galeria-7"; }
+    grid-template-areas: "galeria-1"
+ "galeria-2"
+ "galeria-3"
+ "galeria-4"
+ "galeria-5"
+ "galeria-6"
+ "galeria-7"; }
   .imagen-conteiner {
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "preguntas"   "img1" "img2"; }
+    grid-template-areas: "preguntas"  
+ "img1"
+ "img2"; }
   .footer {
     display: grid;
-    grid-template-areas: "indice" "informacion" "redes" "derechos"; }
+    grid-template-areas: "indice"
+ "informacion"
+ "redes"
+ "derechos"; }
     .footer__informacion {
       grid-area: informacion;
       text-align: center; }
@@ -350,11 +376,18 @@
     padding: 5px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "galeria-1 galeria-2" "galeria-3 galeria-4" "galeria-5 galeria-6" "galeria-5 galeria-7"; }
+    grid-template-areas: "galeria-1 galeria-2"
+ "galeria-3 galeria-4"
+ "galeria-5 galeria-6"
+ "galeria-5 galeria-7"; }
   .main_tarjetas {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "card1 card2"  "card3 card4" "card5 card6" "card7 card8" "card9 none"; }
+    grid-template-areas: "card1 card2" 
+ "card3 card4"
+ "card5 card6"
+ "card7 card8"
+ "card9 none"; }
   .main_card {
     padding: 2px;
     margin: 10px; }
