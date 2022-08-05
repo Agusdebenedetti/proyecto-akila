@@ -49,7 +49,7 @@
   margin: 0px;
   padding: 0px; }
 
-body {
+.body {
   background-color: #fff6f9; }
 
 .nav-color {
@@ -218,6 +218,22 @@ body {
   font-size: 15px;
   list-style: none; }
 
+.contacto_titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a79494; }
+
+.formularios_1y2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "form1 form2 "; }
+  .formularios_1y2 .form1 {
+    grid-area: form1; }
+  .formularios_1y2 .form2 {
+    grid-area: form2; }
+
 .form {
   display: grid;
   justify-content: center;
@@ -228,34 +244,45 @@ body {
     margin: auto;
     width: 90%;
     max-width: 400px;
-    padding: 2.5em 3em;
+    padding: 4.5em 3em;
     border-radius: 15px;
     box-shadow: 0px 5px 10px -5px black; }
-    .form_contenedor .mensajeria {
-      font-size: 20px; }
-    .form_contenedor .label {
-      display: inline-block;
-      width: 80px; }
-    .form_contenedor .label_ {
-      display: inline-block;
-      width: 100px; }
+    .form_contenedor:hover {
+      background-color: beige;
+      transform: scale(1.02, 1.02); }
+  .form .mensajeria {
+    font-size: 20px; }
+  .form .label {
+    display: inline-block;
+    width: 80px;
+    font-size: 20px; }
+  .form .label_ {
+    display: inline-block;
+    width: 100px;
+    font-size: 20px; }
   .form_input {
     border: none;
     outline: none;
     border-bottom: 1px solid #cf6f8f;
     color: #f999b7; }
-
-.boton_contacto {
-  height: 40px;
-  width: 280px;
-  margin: 10px;
-  font-size: 15px;
-  border-radius: 10px;
-  background-color: #f999b7;
-  border: none; }
-  .boton_contacto:hover {
-    background-color: #f7dae3;
-    transform: scale(1.1, 1.1); }
+  .form_botones {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f999b7;
+    border-radius: 10px;
+    border: none; }
+    .form_botones:hover {
+      background-color: #f7dae3;
+      transform: scale(1.1, 1.1); }
+  .form_titulos {
+    color: #ec8aab;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px; }
 
 /* medida de celular */
 @media (min-width: 320px) and (max-width: 575px) {
@@ -279,9 +306,17 @@ body {
     margin: 10px; }
   .boton_productos {
     margin: 8px; }
-  .boton_contacto {
-    height: 40px;
-    width: 180px; }
+  /* contacto */
+  .formularios_1y2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "form1"  "form2 "; }
+    .formularios_1y2 .form1 {
+      grid-area: form1; }
+    .formularios_1y2 .form2 {
+      grid-area: form2; }
+  /* final de contacto */
   .galeria_grid {
     width: 95vw;
     height: 90vh;
@@ -340,7 +375,7 @@ body {
   font-size: 2rem; }
 
 .tamaño-h3 {
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 .tamaño-h4 {
   font-size: 1rem; }

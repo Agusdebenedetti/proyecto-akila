@@ -1,3 +1,21 @@
+.contacto_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(167, 148, 148);
+}
+.formularios_1y2{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+grid-template-rows: auto;
+grid-template-areas: "form1 form2 ";
+                .form1{
+                    grid-area: form1;
+                }
+                .form2{
+                    grid-area: form2;
+                }
+}
 .form{
     display: grid;
     justify-content: center;
@@ -8,39 +26,52 @@
         margin: auto;
         width: 90%;
         max-width: 400px;
-        padding: 2.5em 3em;
+        padding: 4.5em 3em;
         border-radius: 15px;
         box-shadow: 0px 5px 10px -5px rgb(0, 0, 0/ 100%);
+        &:hover{
+            background-color: beige;
+            transform: scale(1.02,1.02);
+        }
+        }
         .mensajeria{
             font-size: 20px;
         }
         .label{
             display: inline-block;
             width: 80px;
+            font-size: 20px;
         }
         .label_{
             display: inline-block;
             width: 100px;
+            font-size: 20px;
         }
-    }
     &_input{
         border: none;
         outline: none;
         border-bottom: 1px solid rgb(207, 111, 143);
         color: $color-boton-form;
     }
-}
-
-.boton_contacto{
-    height: 40px;
-    width: 280px;
-    margin: 10px;
-    font-size:15px;
-    border-radius: 10px;
-    background-color:$color-boton-form;
-    border: none;
-    &:hover{
-        background-color: #f7dae3;
-        transform: scale(1.10,1.10);
+    &_botones{
+        width:100px ;
+        padding: 10px;
+        margin: 10px;
+        background-color:$color-boton-form;
+        border-radius: 10px;
+        border: none;
+        &:hover{
+            background-color: #f7dae3;
+            transform: scale(1.10,1.10);
+        }
+    }
+    &_titulos{
+        color:rgb(236, 138, 171);
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
     }
 }

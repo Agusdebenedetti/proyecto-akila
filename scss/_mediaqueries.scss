@@ -38,10 +38,21 @@ body{
 .boton_productos{
     margin: 8px;
 }
-.boton_contacto{
-    height: 40px;
-    width: 180px;
-}
+/* contacto */
+.formularios_1y2{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto;
+    grid-template-areas: "form1" 
+                        "form2 ";
+                    .form1{
+                        grid-area: form1;
+                    }
+                    .form2{
+                        grid-area: form2;
+                    }
+    }
+/* final de contacto */
 .galeria_grid{
     width: 95vw;
     height:90vh;
