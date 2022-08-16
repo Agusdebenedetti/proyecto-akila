@@ -22,7 +22,7 @@ grid-template-areas: "form1 form2 ";
     align-items: center;
     gap: 1.5em;
     &_contenedor{
-        background-color: #ffff;
+        background-color: #fff6f9;
         margin: auto;
         width: 90%;
         max-width: 400px;
@@ -60,11 +60,15 @@ grid-template-areas: "form1 form2 ";
         background-color:$color-boton-form;
         border-radius: 10px;
         border: none;
+        &:active{
+            color: #fee3ec;
+        }
         &:hover{
-            background-color: #f7dae3;
+            background-color:$color-boton-form;
             transform: scale(1.10,1.10);
         }
     }
+    
     &_titulos{
         color:rgb(236, 138, 171);
         font-size: 30px;

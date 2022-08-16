@@ -52,11 +52,10 @@ body{
                         grid-area: form2;
                     }
     }
-/* final de contacto */
 .galeria_grid{
     width: 95vw;
-    height:90vh;
-    padding: 5px;
+    height:100vh;
+    padding:5px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
     grid-template-areas:"galeria-1"
@@ -75,6 +74,14 @@ body{
     grid-template-areas: "preguntas"  
                         "img1"
                         "img2";
+                        .img1{
+                            grid-area: img1;
+                            margin: 30px;
+                        }
+                        .img2{
+                            grid-area: img2;
+                            margin: 30px;
+                        }
 }
 .footer{
     display: grid;
@@ -122,6 +129,7 @@ body{
                             "card9 none";
     }
     &_card{
+        width: 45vw;
         padding: 2px;
         margin: 10px;
     }
