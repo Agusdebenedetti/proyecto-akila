@@ -69,6 +69,7 @@ body{
 .imagen-conteiner{
     display: grid;
     justify-content: center;
+    align-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "preguntas"  
@@ -130,17 +131,10 @@ body{
     }
     &_card{
         width: 45vw;
-        padding: 2px;
-        margin: 10px;
     }
     &_card-img{
-        margin: 10px;
-    }
-    &_card-img2{
-        margin: 10px;
-    }
-    &_letra{
-        margin: 25px;
+        height: 200px;
+        width: 220px;
     }
 }
 

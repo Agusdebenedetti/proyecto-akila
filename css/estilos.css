@@ -328,6 +328,7 @@
   .imagen-conteiner {
     display: grid;
     justify-content: center;
+    align-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "preguntas"   "img1" "img2"; }
@@ -363,15 +364,10 @@
     grid-template-rows: auto;
     grid-template-areas: "card1 card2"  "card3 card4" "card5 card6" "card7 card8" "card9 none"; }
   .main_card {
-    width: 45vw;
-    padding: 2px;
-    margin: 10px; }
+    width: 45vw; }
   .main_card-img {
-    margin: 10px; }
-  .main_card-img2 {
-    margin: 10px; }
-  .main_letra {
-    margin: 25px; }
+    height: 200px;
+    width: 220px; }
   .boton_productos {
     margin: 8px; } }
 
