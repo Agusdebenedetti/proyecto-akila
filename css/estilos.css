@@ -369,7 +369,11 @@
     height: 200px;
     width: 220px; }
   .boton_productos {
-    margin: 8px; } }
+    margin: 8px; }
+  .contacto_titulo {
+    margin: 20px; }
+  .imagen-preguntas {
+    margin-right: 10px; } }
 
 /* map coleccion de variables */
 .tamaño-h1 {
